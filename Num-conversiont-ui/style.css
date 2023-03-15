@@ -1,0 +1,97 @@
+* {
+  font-family: "Proxima-nova", "Poppins", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+/* parent style */
+#converter {
+  background-color: #f0dfff;
+  width: 50vw;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 0.5rem;
+}
+
+/* Header style */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+.header h1 {
+  text-transform: capitalize;
+  margin-bottom: -0.8rem;
+}
+.header p {
+  font-size: small;
+}
+hr {
+  width: 20rem;
+}
+
+/* type select styling */
+.type-select {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.type-select .select select {
+  width: auto;
+  padding: 10px 80px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  text-align: left;
+  appearance: none;
+}
+.type-select .select select option {
+  padding: 10px;
+  text-align: left;
+}
+
+/* input form style */
+
+#input {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1rem;
+}
+#number {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border: 3px;
+}
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-group input {
+  padding: 10px 80px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  text-transform: capitalize;
+}
+
+.btn-group #submit {
+  background-color: green;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 2px;
+  width: 60%;
+}

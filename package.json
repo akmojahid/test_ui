@@ -1,0 +1,8 @@
+{
+  "name": "test_ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/akmojahid/test_ui.git",
+  "author": "akmojahid <texthouse7@gmail.com>",
+  "license": "MIT"
+}
