@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Playground | Errorcampus</title>
+    <script
+      src="https://kit.fontawesome.com/a5fc0f6eef.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.10/ace.js"></script>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <body>
+    <section class="app">
+      <div id="editor-container">
+        <div id="editor-html"><code id="code"></code></div>
+
+
+        <div class="copy_btn flex_r_sb">
+          <i class="ico fa-regular fa-clipboard"></i>
+          <span>Copy</span>
+        </div>
+        </div>
+      </div>
+
+      <div id="screen">
+        <h1><span class="short-key">Ctrl + Enter</span> to Run code</h1>
+        <iframe frameborder="0" id="result"></iframe>
+      </div>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
